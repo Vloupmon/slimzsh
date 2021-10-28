@@ -2,8 +2,8 @@
     path = plugins/pure
     url = https://github.com/sindresorhus/pure.git
 [submodule "plugins/zsh-vi-mode"]
-    path = plugins/zsh-vi-mode
-    url = git@github.com:jeffreytse/zsh-vi-mode.git
+	path = plugins/zsh-vi-mode
+	url = git@github.com:jeffreytse/zsh-vi-mode.git
 [submodule "plugins/zsh-autosuggestions"]
     path = plugins/zsh-autosuggestions
     url = git@github.com:zsh-users/zsh-autosuggestions.git
