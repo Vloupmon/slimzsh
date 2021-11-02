@@ -20,7 +20,6 @@ source $slim_path/aliases.zsh
 source $slim_path/correction.zsh
 source $slim_path/stack.zsh
 source $slim_path/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
-source $slim_path/plugins/zsh-vi-mode/zsh-vi-mode.plugin.zsh
 source $slim_path/plugins/git/git.plugin.zsh
 source $slim_path/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $slim_path/plugins/ssh-agent/ssh-agent.plugin.zsh
