@@ -24,6 +24,7 @@ source $slim_path/plugins/git/git.plugin.zsh
 source $slim_path/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $slim_path/plugins/ssh-agent/ssh-agent.plugin.zsh
 source $slim_path/plugins/colored-man-pages/colored-man-pages.plugin.zsh
+source $slim_path/plugins/fzf-tab/fzf-tab.zsh
 
 if command -v fasd >/dev/null 2>&1; then
   eval "$(fasd --init zsh-hook zsh-ccomp zsh-ccomp-install zsh-wcomp zsh-wcomp-install posix-alias)"

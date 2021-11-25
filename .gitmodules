@@ -10,3 +10,6 @@
 [submodule "plugins/fast-syntax-highlighting"]
     path = plugins/fast-syntax-highlighting
     url = git@github.com:zdharma-continuum/fast-syntax-highlighting.git
+[submodule "plugins/fzf-tab"]
+    path = plugins/fzf-tab
+    url = git@github.com:Aloxaf/fzf-tab.git
