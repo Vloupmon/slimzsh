@@ -1,3 +1,4 @@
+alias ls='exa'
 alias ll='exa -alh'
 alias llr='exa -alhR'
 alias cl='clear'
@@ -9,7 +10,14 @@ alias arc='vi ~/.slimzsh/aliases.zsh.local'
 alias ai='sudo apt get install'
 alias arm='sudo apt autoremove'
 alias armo='sudo apt remove --purge `deborphan`'
-alias tb=nc termbin.com 9999
+alias tb='nc termbin.com 9999'
+alias k='kubectl'
+compdef __start_kubectl k
+
+# Upload tarball
+function ul() {
+    curl -s --upload-file $1 https://transfer.sh/ && echo ""
+}
 
 # Get dependencies of a bin.
 # Requires `which` because `command -v` is terrible
